@@ -5,6 +5,8 @@ class Startup extends CI_Controller
 {
     public function index($id)
     {
-        echo 'hello  ' . $id;
+        $this->load->view('layouts/header');
+        $this->load->view('startup');
+        $this->load->view('layouts/footer');
     }
 }

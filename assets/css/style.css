@@ -1,3 +1,50 @@
+.st-header {
+    background-color: rgb(245, 245, 245);
+    box-shadow: rgb(217, 217, 217) 6px 6px 4px 0px;
+    margin-bottom: 20px;
+}
+
+.st-main {
+    background-color: rgb(255, 255, 255);
+}
+
 .main-row {
     margin-bottom: 50px;
+}
+
+#back-img-1 {
+    position: relative;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+#back-img-2 {
+    position: relative;
+    height: 60px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+#back-img-3 {
+    position: relative;
+    height: 150px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.st-choices ul {
+    background: transparent;
+}
+
+.st-choices li {
+    background: rgb(0, 160, 136);
+    width: 33.3%;
+}
+
+.st-choices li.active {
+    background: rgb(0, 100, 86);
 }
