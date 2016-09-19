@@ -20,6 +20,15 @@
     margin-bottom: 50px;
 }
 
+.btn.btn-lg.btn-success {
+    color: white;
+    background: rgb(0, 160, 136);;
+}
+
+.btn.btn-lg.btn-success:hover {
+    background: rgb(0, 100, 86);
+}
+
 #back-img-1 {
     position: relative;
     height: 400px;

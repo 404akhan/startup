@@ -62,7 +62,16 @@ $(document).ready(function () {
 
     });
 
+    $("#amount").keyup(function (e) {
 
+        var perc = parseInt( $('#amount_persentage').text() );
+        var amount = parseInt( $(this).val() );
+
+        if(amount) {
+            $("#amount_result").text(amount + perc * amount / 100.0);
+            $("#amount_month").text(Math.round((amount * 100 + perc * amount ) / 12) / 100);
+        }
+    });
 
 
 });

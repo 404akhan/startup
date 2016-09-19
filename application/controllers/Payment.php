@@ -1,24 +1,25 @@
 <?php
-class Payment extends CI_Controller {
 
+class Payment extends CI_Controller
+{
+    public function index($id = NULL)
+    {
+        $data = $this->data->get_by_id($id);
 
-  public function index($ISIN = NULL)
-  {
-    $data = [];
-    $this->load->view('templates/header', $data);
-    $this->load->view('payment',$data);
-    $this->load->view('templates/footer');
-  }
+        $this->load->view('layouts/header', $data);
+        $this->load->view('payment', $data);
+        $this->load->view('layouts/footer');
+    }
 
-  public function submit()
-	{
-  //get form field
+    public function submit()
+    {
+        $data['amount'] = $this->input->post('amount');
+        $data['startup_name'] = $this->input->post('startup_name');
+        $this->load->view('layouts/header', $data);
+        $this->load->view('transaction', $data);
+        $this->load->view('layouts/footer');
 
-    $data['amount'] = $this->input->post('amount');
-    $this->load->view('templates/header', $data);
-    $this->load->view('transaction',$data);
-    $this->load->view('templates/footer');
-  
-  }
+    }
 }
+
 ?>

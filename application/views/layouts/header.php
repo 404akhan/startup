@@ -14,3 +14,33 @@
     <title>Document</title>
 </head>
 <body>
+
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation" id="slide-nav">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-toggle">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </a>
+                <a class="" href="<?php echo base_url(); ?>">
+                    <div>
+                        <img src="<?php echo base_url(); ?>assets/fintech_new/logo.png" alt="Start Up">
+                        <img src="<?php echo base_url(); ?>assets/fintech/group-19@2x.png" alt="Start Up">
+                    </div>
+                </a>
+            </div>
+            <div id="slidemenu">
+
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="<?php echo base_url(); ?>">Startup Profiles</a></li>
+                    <li><a href="#">My Investments</a></li>
+                    <li><a href="#">Share</a></li>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+
+    <div id="page-content">

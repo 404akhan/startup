@@ -1,7 +1,10 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Users extends CI_Model
+class Data extends CI_Model
 {
-
+    public function get_by_id($id)
+    {
+        return $this->db->get('startups')->row_array();
+    }
 }
