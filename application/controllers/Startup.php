@@ -1,12 +1,12 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Main extends CI_Controller
+class Startup extends CI_Controller
 {
-    public function index()
+    public function index($id)
     {
         $this->load->view('layouts/header');
-        $this->load->view('main');
+        $this->load->view('startup');
         $this->load->view('layouts/footer');
     }
 }
