@@ -1,89 +1,79 @@
-<nav class="navbar navbar-default">
-    <div class="container-fluid">
-        <!-- Brand and toggle get grouped for better mobile display -->
+<div class="navbar navbar-inverse navbar-fixed-top" role="navigation" id="slide-nav">
+    <div class="container">
         <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <a class="navbar-toggle">
                 <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="#">Brand</a>
-        </div>
-
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav">
-                <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
-                <li><a href="#">Link</a></li>
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-                    <ul class="dropdown-menu">
-                        <li><a href="#">Action</a></li>
-                        <li><a href="#">Another action</a></li>
-                        <li><a href="#">Something else here</a></li>
-                        <li role="separator" class="divider"></li>
-                        <li><a href="#">Separated link</a></li>
-                        <li role="separator" class="divider"></li>
-                        <li><a href="#">One more separated link</a></li>
-                    </ul>
-                </li>
-            </ul>
-            <form class="navbar-form navbar-left">
-                <div class="form-group">
-                    <input type="text" class="form-control" placeholder="Search">
+            </a>
+            <a class="" href="#">
+                <div>
+                    <img src="<?php echo base_url(); ?>assets/fintech_new/logo.png" alt="Start Up">
+                    <img src="<?php echo base_url(); ?>assets/fintech/group-19@2x.png" alt="Start Up">
                 </div>
-                <button type="submit" class="btn btn-default">Submit</button>
-            </form>
-            <ul class="nav navbar-nav navbar-right">
-                <li><a href="#">Link</a></li>
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-                    <ul class="dropdown-menu">
-                        <li><a href="#">Action</a></li>
-                        <li><a href="#">Another action</a></li>
-                        <li><a href="#">Something else here</a></li>
-                        <li role="separator" class="divider"></li>
-                        <li><a href="#">Separated link</a></li>
-                    </ul>
-                </li>
-            </ul>
-        </div><!-- /.navbar-collapse -->
-    </div><!-- /.container-fluid -->
-</nav>
-
-
-<div class="jumbotron">
-
-</div>
-
-
-<div class="main">
-    <div class="container">
-        <div class="row main-row">
-            <div class="col-md-4">
-                <a href="index.php/startup/index/1">
-                    <img src="<?php echo base_url(); ?>assets/img/startup.png" alt="Start Up">
-                </a>
-            </div>
-            <div class="col-md-4">
-                <img src="<?php echo base_url(); ?>assets/img/startup.png" alt="Start Up">
-            </div>
-            <div class="col-md-4">
-                <img src="<?php echo base_url(); ?>assets/img/startup.png" alt="Start Up">
-            </div>
+            </a>
         </div>
+        <div id="slidemenu">
 
-        <div class="row main-row">
-            <div class="col-md-4">
-                <img src="<?php echo base_url(); ?>assets/img/startup.png" alt="Start Up">
-            </div>
-            <div class="col-md-4">
-                <img src="<?php echo base_url(); ?>assets/img/startup.png" alt="Start Up">
-            </div>
-            <div class="col-md-4">
-                <img src="<?php echo base_url(); ?>assets/img/startup.png" alt="Start Up">
-            </div>
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Startup Profiles</a></li>
+                <li><a href="#">My Investments</a></li>
+                <li><a href="#">Share</a></li>
+            </ul>
+
         </div>
     </div>
+</div>
+
+<div id="page-content">
+
+    <div class="mn-jumbotron">
+        <div class="container">
+            <img height="300px" width="100%" src="<?php echo base_url(); ?>assets/fintech/image-5@2x.png" alt="">
+        </div>
+    </div>
+
+    <div class="mn-main">
+        <div class="container">
+            <h2 style="text-align: center;">Technology</h2>
+            <ul class="startup-list">
+                <a href="http://localhost/startup/index.php/startup/index/1">
+                    <li>
+                        <div class="row">
+                            <div class="col-xs-2">
+                                <img src="<?php echo base_url(); ?>assets/fintech/group-40.png" alt="Start Up">
+                            </div>
+
+                            <div class="col-xs-4">
+                                <b>XXX</b><br>
+                                <p>1014K - investors</p>
+                            </div>
+
+                            <div class="col-xs-2 col-xs-offset-4">
+                                <p>ROI: 10%</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="row">
+                            <div class="col-xs-2">
+                                <img src="<?php echo base_url(); ?>assets/fintech/group-40.png" alt="Start Up">
+                            </div>
+
+                            <div class="col-xs-4">
+                                <b>XXX</b><br>
+                                <p>1014K - investors</p>
+                            </div>
+
+                            <div class="col-xs-2 col-xs-offset-4">
+                                <p>ROI: 10%</p>
+                            </div>
+                        </div>
+                    </li>
+                </a>
+            </ul>
+        </div>
+    </div>
+
 </div>

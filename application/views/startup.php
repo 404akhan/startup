@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <img src="<?php echo base_url(); ?>assets/fintech/group.png" alt="Start Up">
+                <img src="<?php echo base_url(); ?>assets/fintech_new/logo.png" alt="Start Up">
                 <img src="<?php echo base_url(); ?>assets/fintech/group-19@2x.png" alt="Start Up">
             </div>
         </div>
@@ -11,13 +11,13 @@
 
 <div class="st-main">
     <div class="container">
-        <div class="row">
+        <div class="row" style="margin: 15px 0px;">
             <div class="col-xs-2">
                 <img src="<?php echo base_url(); ?>assets/fintech/group-40.png" alt="Start Up">
             </div>
 
             <div class="col-xs-4">
-                <b>XXX</b><br>
+                <b>XXX</b><br>6
                 <p>1014K - investors</p>
             </div>
 
@@ -26,9 +26,7 @@
             </div>
         </div>
 
-        <div id="back-img-1" style='background-image: url("<?php echo base_url(); ?>assets/fintech/image-5@2x.png");'>
-            </div>
-
+        <img height="300px" width="100%" src="<?php echo base_url(); ?>assets/fintech/image-5@2x.png" alt="">
 
         <div class="row">
             <div class="col-md-12">
@@ -45,12 +43,12 @@
 
             <div class="tab-content">
                 <div id="home" class="tab-pane fade in active">
-                    <div id="back-img-2" style='background-image: url("<?php echo base_url(); ?>assets/fintech/group-7@2x.png");'></div>
-                    <div id="back-img-3" style='background-image: url("<?php echo base_url(); ?>assets/fintech/image-6@2x.png");'></div>
+                    <img width="100%" src="<?php echo base_url(); ?>assets/fintech/group-7@2x.png" alt="">
+                    <img width="100%" src="<?php echo base_url(); ?>assets/fintech/image-6@2x.png" alt="">
                 </div>
                 <div id="menu1" class="tab-pane fade">
-                    <div id="back-img-3" style='background-image: url("<?php echo base_url(); ?>assets/fintech/image-6@2x.png");'>
-                    </div>
+                    <img width="100%" src="<?php echo base_url(); ?>assets/fintech/group-7@2x.png" alt="">
+                    <img width="100%" src="<?php echo base_url(); ?>assets/fintech/image-6@2x.png" alt="">
                 </div>
                 <div id="menu2" class="tab-pane fade">
 
@@ -153,31 +151,31 @@
         <div class="row">
             <table class="table">
                 <thead>
-                <tr>
-                    <th colspan="2">
-                        <h3 style="text-align: center;">Related Startups</h3>
-                    </th>
-                </tr>
+                    <tr>
+                        <th colspan="2">
+                            <h3 style="text-align: center;">Related Startups</h3>
+                        </th>
+                    </tr>
                 </thead>
                 <tbody>
-                <tr>
-                    <td>
-                        <div class="row">
-                            <div class="col-xs-2">
-                                <img src="<?php echo base_url(); ?>assets/fintech/group-40.png" alt="Start Up">
-                            </div>
+                    <tr>
+                        <td>
+                            <div class="row">
+                                <div class="col-xs-2">
+                                    <img src="<?php echo base_url(); ?>assets/fintech/group-40.png" alt="Start Up">
+                                </div>
 
-                            <div class="col-xs-4">
-                                <b>XXX</b><br>
-                                <p>1014K - investors</p>
-                            </div>
+                                <div class="col-xs-4">
+                                    <b>XXX</b><br>
+                                    <p>1014K - investors</p>
+                                </div>
 
-                            <div class="col-xs-2 col-xs-offset-4">
-                                <p>ROI: 10%</p>
+                                <div class="col-xs-2 col-xs-offset-4">
+                                    <p>ROI: 10%</p>
+                                </div>
                             </div>
-                        </div>
-                    </td>
-                </tr>
+                        </td>
+                    </tr>
                 </tbody>
             </table>
         </div>
