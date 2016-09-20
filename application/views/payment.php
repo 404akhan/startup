@@ -12,7 +12,7 @@
       </div>
 
       <div class="row">
-        <h3 class="orange_text" style="text-align:center;"><span id="amount_result">0</span> ( <span id="amount_month">0</span> HKD/mo )</h3>
+        <h3 class="orange_text" style="text-align:center;"><span id="amount_result">0</span> ( <span id="amount_month">0</span> HKD/month )</h3>
       </div>
       <div class="row col-sm-12" id="sandbox-container">
       <input type="text" class="form-control" value="09/20/2016" />
@@ -71,6 +71,7 @@
     </div>
 
     <input type="hidden" name="startup_name" value="<?php echo $name; ?>">
+    <input type="hidden" name="roi" value="<?php echo $persentage_expecting; ?>">
 
     <div class="text-center">
       <button type="submit" style="background-color: #ffcd22;  color: #ff6600;" class="btn orange_text btn-raised text-center">Submit</button>
