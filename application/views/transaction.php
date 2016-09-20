@@ -16,16 +16,16 @@
   </div>
 
   <div class="text-center">
-    <button type="submit" style="background-color: #ffcd22;  color: #ff6600;" class="btn orange_text btn-raised text-center"><img src="<?php echo base_url(); ?>assets/fintech/image-14@2x.png"></button>
+    <button type="submit" style="background-color: #ffcd22;  color: #ff6600; width:200px;" class="btn orange_text btn-raised text-center"><img src="<?php echo base_url(); ?>assets/fintech/image-14@2x.png"></button>
     </div>
   <div class="text-center">
-    <button type="submit" style="background-color: #ffcd22;  color: #ff6600;" class="btn orange_text btn-raised text-center"><img src="<?php echo base_url(); ?>assets/fintech/image-15@2x.png"></button>
+    <button type="submit" style="background-color: #ffcd22;  color: #ff6600;width:200px;" class="btn orange_text btn-raised text-center"><img src="<?php echo base_url(); ?>assets/fintech/image-15@2x.png"></button>
     </div>
     <div class="text-center">
-    <button type="submit" style="background-color: #ffcd22;  color: #ff6600;" class="btn orange_text btn-raised text-center"><img src="<?php echo base_url(); ?>assets/fintech/image-16@2x.png"></button>
+    <button type="submit" style="background-color: #ffcd22;  color: #ff6600;width:200px;" class="btn orange_text btn-raised text-center"><img src="<?php echo base_url(); ?>assets/fintech/image-16@2x.png"></button>
     </div>
     <div class="text-center">
-    <button type="submit" style="background-color: #ffcd22;  color: #ff6600;" class="btn orange_text btn-raised text-center"><img src="<?php echo base_url(); ?>assets/fintech/image-17@2x.png"></button>
+    <button type="submit" style="background-color: #ffcd22;  color: #ff6600;width:200px;" class="btn orange_text btn-raised text-center"><img src="<?php echo base_url(); ?>assets/fintech/image-17@2x.png"></button>
     </div>
 
   </form>
