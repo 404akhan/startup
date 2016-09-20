@@ -11,7 +11,7 @@
               </td>
               <td><?php echo $name; ?><br/>
                   <?php echo $amount_invested; ?> - amount invested</td>
-                  <td style="text-align:right;">ROI:<?php echo $persentage_expecting; ?>%</td>
+                  <td style="text-align:right;">Yield:<?php echo $persentage_expecting; ?>%</td>
 
               </tr>
           </table>
@@ -172,7 +172,7 @@
                                       </td>
                                       <td>XXX<br/>
                                           1014K - investors</td>
-                                          <td style="text-align:right;">ROI: 10%</td>
+                                          <td style="text-align:right;">Yield: 10%</td>
 
                                       </tr>
                                   </table>

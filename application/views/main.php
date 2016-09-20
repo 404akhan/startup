@@ -11,12 +11,12 @@
                             </div>
 
                             <div class="col-xs-4">
-                                <b>A Bridge for Children</b><br>
+                                <b>Fin App</b><br>
                                 <p>12000HKD - amount invested</p>
                             </div>
 
                             <div class="col-xs-2 col-xs-offset-4">
-                                <p>ROI: 11%</p>
+                                <p>Yield: 11%</p>
                             </div>
                         </div>
                     </li>
@@ -34,7 +34,7 @@
                             </div>
 
                             <div class="col-xs-2 col-xs-offset-4">
-                                <p>ROI: 5%</p>
+                                <p>Yield: 5%</p>
                             </div>
                         </div>
                     </li>
@@ -59,7 +59,7 @@
                             </div>
 
                             <div class="col-xs-2 col-xs-offset-4">
-                                <p>ROI: 13%</p>
+                                <p>Yield: 13%</p>
                             </div>
                         </div>
                     </li>
