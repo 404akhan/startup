@@ -16,7 +16,7 @@
                             <p>Company</p>
                         </th>
                         <th>
-                            <p>ROI</p>
+                            <p>Yield</p>
                         </th>
                     </tr>
                 </thead>
