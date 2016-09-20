@@ -10,19 +10,16 @@ class Transaction extends CI_Controller {
     $this->load->view('layouts/footer');
   }
 
-    public function submit()
-    {
-        //get form field
-        $data['amount'] = $this->input->post('amount');
-        $data['startup_name'] = $this->input->post('startup_name');
-        $data['roi'] = $this->input->post('roi');
+  public function submit()
+	{
+  //get form field
+    $data['amount'] = $this->input->post('amount');
+    $data['startup_name'] = $this->input->post('startup_name');
 
-        $this->data->save_transactions($data);
-
-        $this->load->view('layouts/header', $data);
-        $this->load->view('thankYou',$data);
-        $this->load->view('layouts/footer');
-
-    }
+    $this->load->view('layouts/header', $data);
+    $this->load->view('thankYou',$data);
+    $this->load->view('layouts/footer');
+  
+  }
 }
 ?>
