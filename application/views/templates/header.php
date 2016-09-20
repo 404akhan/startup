@@ -6,6 +6,7 @@
 
     <link rel="stylesheet" href="<?php echo base_url(); ?>assets/bootstrap/css/bootstrap.min.css" />
     <link rel="stylesheet" href="<?php echo base_url(); ?>assets/bootstrap-material/css/bootstrap-material-design.min.css" />
+    <link rel="stylesheet" href="<?php echo base_url(); ?>assets/bootstrap-datepicker/css/bootstrap-datepicker.css" />
     <title>Kairos</title>
 </head>
  <body style="background-color: #FFF;">

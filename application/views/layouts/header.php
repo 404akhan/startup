@@ -10,7 +10,9 @@
     <link rel="stylesheet" href="<?php echo base_url(); ?>assets/material/css/bootstrap-material-design.min.css" />
     <link rel="stylesheet" href="<?php echo base_url(); ?>assets/material/css/ripples.min.css" />
     <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/style.css" />
-
+     <link rel="stylesheet" href="<?php echo base_url(); ?>assets/bootstrap-datepicker/css/bootstrap-datepicker.css" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script type="text/javascript" src="<?php echo base_url(); ?>assets/bootstrap-datepicker/js/bootstrap-datepicker.min.js"></script>
     <title>Document</title>
 </head>
 <body>
