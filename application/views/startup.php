@@ -23,7 +23,7 @@
       </div>
 
       <div class="row">
-        <img height="300px" width="100%" src="<?php echo base_url(); ?>assets/fintech/image-1@2x.png" alt="">
+        <img height="300px" width="100%" src="<?php echo base_url(); ?>assets/fintech/blabla.png" alt="">
     </div>
 
     <div class="row">
@@ -34,7 +34,7 @@
 
     <div class="row">
         <div class="col-md-12">
-            <p>Our vision lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, itaque.</p>
+            <p>The social enterprise to fund and train 16-21 year old selected orphans in China, funded through an educational program teaching English and Chinese through online media.</p>
         </div>
     </div>
 
@@ -80,8 +80,8 @@
                             <img height="60px" width="60px" src="<?php echo base_url(); ?>assets/fintech/head1.jpg" alt="">
                         </td>
                         <td>
-                            <h4>Three Line Item</h4>
-                            <p>Secondary line lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil, ratione.</p>
+                            <h4>Owen Chang</h4>
+                            <p>CEO, ex Banker, now full time philanthropist dedicated to raising the future generation leaders in society.</p>
                         </td>
                     </tr>
                     <tr>
@@ -89,8 +89,8 @@
                             <img height="60px" width="60px" src="<?php echo base_url(); ?>assets/fintech/head2.jpg" alt="">
                         </td>
                         <td>
-                            <h4>Three Line Item</h4>
-                            <p>Secondary line lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil, ratione.</p>
+                            <h4>Ashish Kramer</h4>
+                            <p>COO, accomplished entrepreneur, manages business daily functions.</p>
                         </td>
                     </tr>
                     <tr>
@@ -98,8 +98,8 @@
                             <img height="60px" width="60px" src="<?php echo base_url(); ?>assets/fintech/head3.jpg" alt="">
                         </td>
                         <td>
-                            <h4>Three Line Item</h4>
-                            <p>Secondary line lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil, ratione.</p>
+                            <h4>Aydana Zholdasova</h4>
+                            <p>Children coordinator, with a heart of gold, manages orphanage and educational program.</p>
                         </td>
                     </tr>
                 </tbody>

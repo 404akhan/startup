@@ -11,7 +11,7 @@
                             </div>
 
                             <div class="col-xs-4">
-                                <b>Fin App</b><br>
+                                <b>A Bridge for Children</b><br>
                                 <p>12000HKD - amount invested</p>
                             </div>
 
