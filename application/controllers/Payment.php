@@ -15,6 +15,7 @@ class Payment extends CI_Controller
     {
         $data['amount'] = $this->input->post('amount');
         $data['startup_name'] = $this->input->post('startup_name');
+        $data['roi'] = $this->input->post('roi');
         $this->load->view('layouts/header', $data);
         $this->load->view('transaction', $data);
         $this->load->view('layouts/footer');

@@ -37,6 +37,7 @@
       </div>
 
           <input type="hidden" name="startup_name" value="<?php echo $name; ?>">
+          <input type="hidden" name="roi" value="<?php echo $persentage_expecting; ?>">
 
       <div class="text-center">
       <button type="submit" style="background-color: #ffcd22;  color: #ff6600;" class="btn orange_text btn-raised text-center">Submit</button>
