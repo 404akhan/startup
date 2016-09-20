@@ -23,7 +23,7 @@
   </div>
 
   <div class="row">
-    <img height="300px" width="100%" src="<?php echo base_url(); ?>assets/fintech/image-1@2x.png" alt="">
+      <img height="300px" width="100%" src="<?php echo base_url(); ?>assets/fintech/image-1@2x.png" alt="">
 </div>
 
 <div class="row">
@@ -31,13 +31,6 @@
         Invest
     </a>
 </div>
-
-    <div class="row">
-        <a href="<?php echo base_url(); ?>index.php/payment/index/1" class="btn btn-success btn-lg" style="float: right;">
-            Invest
-        </a>
-    </div>
-
 
 <div class="st-choices">
     <ul class="nav nav-tabs">
