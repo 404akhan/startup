@@ -6,7 +6,7 @@
                 <a href="<?php echo base_url(); ?>index.php/startup/index/1">
                     <li>
                         <div class="row">
-                            <div class="col-xs-2">
+                            <div class="col-xs-3">
                                 <img src="<?php echo base_url(); ?>assets/fintech/logo.png" alt="Start Up">
                             </div>
 
@@ -15,7 +15,7 @@
                                 <p>12000HKD - amount invested</p>
                             </div>
 
-                            <div class="col-xs-2 col-xs-offset-4">
+                            <div class="col-xs-2 col-xs-offset-3">
                                 <p>Yield: 11%</p>
                             </div>
                         </div>
@@ -24,7 +24,7 @@
                 <a href="#">
                     <li>
                         <div class="row">
-                            <div class="col-xs-2">
+                            <div class="col-xs-3">
                                 <img src="<?php echo base_url(); ?>assets/fintech/logo.png" alt="Start Up">
                             </div>
 
@@ -33,7 +33,7 @@
                                 <p>36000HKD - amount invested</p>
                             </div>
 
-                            <div class="col-xs-2 col-xs-offset-4">
+                            <div class="col-xs-2 col-xs-offset-3">
                                 <p>Yield: 5%</p>
                             </div>
                         </div>
@@ -49,7 +49,7 @@
                 <a href="#">
                     <li>
                         <div class="row">
-                            <div class="col-xs-2">
+                            <div class="col-xs-3">
                                 <img src="<?php echo base_url(); ?>assets/fintech/logo.png" alt="Start Up">
                             </div>
 
@@ -58,7 +58,7 @@
                                 <p>3000HKD - amount invested</p>
                             </div>
 
-                            <div class="col-xs-2 col-xs-offset-4">
+                            <div class="col-xs-2 col-xs-offset-3">
                                 <p>Yield: 13%</p>
                             </div>
                         </div>
