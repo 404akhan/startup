@@ -71,7 +71,7 @@
                 <tbody>
                     <tr>
                         <td>
-                            <img src="<?php echo base_url(); ?>assets/fintech/image-7.png" alt="Start Up">
+                            <img height="60px" width="60px" src="<?php echo base_url(); ?>assets/fintech/head1.jpg" alt="">
                         </td>
                         <td>
                             <h4>Three Line Item</h4>
@@ -80,7 +80,7 @@
                     </tr>
                     <tr>
                         <td>
-                            <img src="<?php echo base_url(); ?>assets/fintech/image-7.png" alt="Start Up">
+                            <img height="60px" width="60px" src="<?php echo base_url(); ?>assets/fintech/head2.jpg" alt="">
                         </td>
                         <td>
                             <h4>Three Line Item</h4>
@@ -89,7 +89,7 @@
                     </tr>
                     <tr>
                         <td>
-                            <img src="<?php echo base_url(); ?>assets/fintech/image-7.png" alt="Start Up">
+                            <img height="60px" width="60px" src="<?php echo base_url(); ?>assets/fintech/head3.jpg" alt="">
                         </td>
                         <td>
                             <h4>Three Line Item</h4>
