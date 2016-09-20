@@ -23,7 +23,7 @@
   </div>
 
   <div class="row">
-      <img height="300px" width="100%" src="<?php echo base_url(); ?>assets/fintech/image-1@2x.png" alt="">
+      <img height="300px" width="100%" src="<?php echo base_url(); ?>assets/fintech/blabla.png" alt="">
 </div>
 
 <div class="row">
