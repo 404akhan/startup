@@ -38,6 +38,8 @@
 
                 <ul class="nav navbar-nav">
                     <li class="active"><a href="<?php echo base_url(); ?>">Startup Profiles</a></li>
+					<li><a href="<?php echo base_url(); ?>index.php/profile/index/1">My Investments</a></li>
+
                     <li><a href="#">Share</a></li>
                 </ul>
 
