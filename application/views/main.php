@@ -1,9 +1,3 @@
-<div class="mn-jumbotron">
-    <div class="container">
-        <img height="300px" width="100%" src="<?php echo base_url(); ?>assets/fintech/image-1@2x.png" alt="">
-    </div>
-</div>
-
 <div class="mn-main">
     <div class="container">
         <div>
