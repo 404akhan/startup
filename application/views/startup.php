@@ -165,18 +165,17 @@
                     <tr>
                         <td>
                             <div class="row">
-                                <div class="col-xs-2">
-                                    <img src="<?php echo base_url(); ?>assets/fintech/logo.png" alt="Start Up">
-                                </div>
+                                <table style="width:100%;">
+                                     <tr>
+                                        <td style="width: 10%;"><img src="<?php echo base_url(); ?>assets/fintech/logo.png">
 
-                                <div class="col-xs-6">
-                                    <b>XXX</b><br>
-                                    <p>1014K - investors</p>
-                                </div>
+                                      </td>
+                                      <td>XXX<br/>
+                                          1014K - investors</td>
+                                          <td style="text-align:right;">ROI: 10%</td>
 
-                                <div class="col-xs-2 col-xs-offset-2">
-                                    <p>ROI: 10%</p>
-                                </div>
+                                      </tr>
+                                  </table>
                             </div>
                         </td>
                     </tr>
